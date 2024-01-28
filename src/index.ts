@@ -26,14 +26,6 @@ export function removeCard(): void {
   return ExpoTappayDirectModule.removeCard();
 }
 
-export function getPrime(): Promise<{
-  prime: string;
-  bincode: string;
-  lastfour: string;
-  issuer: string;
-  type: number;
-  funding: number;
-  cardidentifier: string;
-}> {
+export function getPrime(): Promise<ExpoTappayDirectTypes.PrimeResult> {
   return ExpoTappayDirectModule.getPrime();
 }

@@ -43,12 +43,12 @@ public class ExpoTappayDirectModule: Module {
               {
                   promise.resolve([
                       "prime": directPayPrime,
-                      "bincode": creditCardInfo.bincode ?? "",
-                      "lastfour": creditCardInfo.lastFour ?? "",
+                      "binCode": creditCardInfo.bincode ?? "",
+                      "lastFour": creditCardInfo.lastFour ?? "",
                       "issuer": creditCardInfo.issuer ?? "",
                       "type": creditCardInfo.cardType,
                       "funding": creditCardInfo.funding,
-                      "cardidentifier": creditCardIdentifier
+                      "cardIdentifier": creditCardIdentifier
                   ])
               } else {
                   promise.reject("NO_PRIME", "PRIME IS EMPTY")
