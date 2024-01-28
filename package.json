@@ -1,6 +1,6 @@
 {
   "name": "expo-tappay-direct",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Integrate Tappay Direct Pay with Expo",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -28,8 +28,8 @@
   "author": "Stan <stanma789@gmail.com> (https://github.com/stanma9107)",
   "license": "MIT",
   "homepage": "https://github.com/stanma9107/expo-tappay-direct#readme",
-  "dependencies": {},
   "devDependencies": {
+    "@tsconfig/node14": "^14.1.0",
     "@types/react": "^18.0.25",
     "expo-module-scripts": "^3.4.0",
     "expo-modules-core": "^1.11.8"
