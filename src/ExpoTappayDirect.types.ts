@@ -10,3 +10,13 @@ export interface SetCardParams {
   dueYear: string;
   ccv: string;
 }
+
+export interface PrimeResult {
+  prime: string;
+  binCode: string;
+  lastFour: string;
+  issuer: string;
+  type: number;
+  funding: number;
+  cardIdentifier: string;
+}
