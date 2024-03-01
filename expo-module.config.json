@@ -1,6 +1,6 @@
 {
-  "platforms": ["apple", "android"],
-  "apple": {
+  "platforms": ["ios", "android"],
+  "ios": {
     "modules": ["ExpoTappayDirectModule"]
   },
   "android": {

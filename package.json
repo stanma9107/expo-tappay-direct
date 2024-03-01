@@ -1,6 +1,6 @@
 {
   "name": "expo-tappay-direct",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Integrate Tappay Direct Pay with Expo",
   "main": "build/index.js",
   "types": "build/index.d.ts",
